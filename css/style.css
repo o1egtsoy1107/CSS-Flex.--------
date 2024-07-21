@@ -124,9 +124,6 @@ button.white{
     width: calc(3.3vw + 167.5px);
 }
 
-.courseFor{
-
-}
 
 .courseBox1{
     display: flex;
@@ -279,3 +276,33 @@ margin-top: 10px;
     }
 }
 /* legend end */
+
+/* Months start */
+.months{
+
+}
+
+.months h2{
+    font-size: calc(2,7vw + 24px);
+    font-weight: 500;
+    margin-bottom: calc(7.7vw - 9px);
+}
+
+.monthsBox1{
+   font-size: calc(1vw + 14.2px);
+   gap: calc(9.9vw - 7.3px);
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: calc(3.3vw + 17.5px);
+}
+
+.monthsBox2{
+    font-size: calc(1vw + 14.2px);
+    gap: calc(9.9vw - 7.3px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+   width: calc(8vw + 298.1px);
+}

@@ -318,6 +318,7 @@ margin-top: 10px;
 .courseDiplom{
     gap: 20px;
     display: flex;
+    flex-wrap: wrap;
  }
 
  .courseDiplom img{

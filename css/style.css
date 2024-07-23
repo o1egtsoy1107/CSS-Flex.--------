@@ -399,7 +399,7 @@ margin-top: 10px;
 }
 .hiddenBtn{
     display: none;
-    margin: calc(0.4vw + 28px) auto 0;
+    margin: calc(0.4vw + 27px) auto 0;
 }
 .borderImg{
     width: 90px;

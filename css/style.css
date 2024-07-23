@@ -314,6 +314,7 @@ margin-top: 10px;
 
 
 
+
 /* diplom start */
 .courseDiplom{
     gap: 20px;
@@ -337,6 +338,8 @@ margin-top: 10px;
     width: calc(20.6vw + 250px);
 }
 /* diplom end */
+
+
 
 /* Gifts start */
 .studentBox h2{
@@ -367,6 +370,8 @@ margin-top: 10px;
    width: calc(21.2vw + 248.4px);
    margin-bottom: calc(0.6vw + 17.9px);
 }
+
+
 
 /* program start */
 

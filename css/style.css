@@ -322,20 +322,29 @@ margin-top: 10px;
     flex-wrap: wrap;
  }
 
+ .courseDiplom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
  .courseDiplom img{
     width:calc(11.3vw + 285.7px) ;
  }
-.endCourse h2{
+.paragraph h2{
     font-size: calc(2.7vw + 24px);
     font-weight: 500;
     line-height: 117%;
     margin-bottom: 20px;
     width: calc(27.6vw + 224.4px);
 }
-.endCourse p{    
+.paragraph p{    
     font-size: calc(1vw + 14.2px);
     line-height: 140%;
     width: calc(20.6vw + 250px);
+}
+@media(max-width: 500px){
+    .courseDiplom{
+        grid-template-columns: 1fr;
+    }
 }
 /* diplom end */
 
@@ -421,3 +430,61 @@ margin-top: 10px;
     }
 
 }
+
+/* money start */
+.money h2{
+    font-size: calc(2.7vw + 24px);
+    font-weight: 500;
+    line-height: 117%;
+    margin-bottom: calc(2.2vw + 11.7px);
+}
+.money p{
+    font-size: calc(1vw + 14.2px);
+    margin-bottom: calc(1.8vw + 13.3px);
+}
+.money img{
+    width: calc(81.4vw + 22.6px);
+}
+/* money end */
+
+/* about start */
+.about .ourAchieve{
+font-size: calc(2.7vw + 24px);
+font-weight: 500;
+line-height: 117%;
+margin-bottom: calc(5.1vw + 14.9px);
+}
+.achieve{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 97px;
+}
+
+.resident{
+    width: calc(10.8vw + 287.4px);
+}
+.resident p{
+    width: calc(10.8vw + 287.4px);
+    font-size: calc(1vw + 14.2px);
+    font-weight: 600;
+    margin-top: calc(2.2vw + 11.7px);
+    line-height: 140%;
+}
+.achieveNumbers{
+    width: calc(14.7 + 272.9px);
+}
+.achieveNumbers h2{
+    font-size: calc(2.7vw + 24px);
+    font-weight: 700;
+    line-height: 117%;
+    padding-bottom: 8px;
+}
+.achieveNumbers p{
+font-size: calc(0.3vw + 16.7px);
+font-weight: 400;
+line-height: 29.4px;
+}
+.achieveNumbers .graduate{
+    margin-bottom: calc(1.1vw + 25.9px);
+}
+/* about end */

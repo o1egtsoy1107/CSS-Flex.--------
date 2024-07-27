@@ -488,3 +488,48 @@ line-height: 29.4px;
     margin-bottom: calc(1.1vw + 25.9px);
 }
 /* about end */
+
+/* feedback start */
+.fiedback h2{
+    margin-bottom: calc(2.2vw + 11.7px);
+}
+
+.fiedback_card{
+    background-color: #F0F7FD;
+    padding: 46px calc(0.4vw + 14.3px);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 484px;
+}
+.youtube{
+    margin-bottom: 12px;
+}
+.fiedback_card p{
+font-size: 21px;
+line-height: 140%;
+width: 295px;
+}
+.fiedback_user{
+    display: flex;
+    gap: 12px;
+    align-items:center;
+}
+ .fiedback_user p{
+    max-width: 169px;
+ }
+ /* feedback end */
+
+ /* party start */
+ .party h2{
+   margin-bottom: calc(-0.7vw + 22.5px);
+ }
+ .party p{
+   font-size: calc(1vw + 14.3px);
+   line-height: 140%;
+   margin-bottom: calc(0.4vw + 18.3px);
+ }
+ .partyCards img{
+    width: calc(19.8vw + 253.8px);
+ }
